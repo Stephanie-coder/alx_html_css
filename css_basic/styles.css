@@ -1,0 +1,11 @@
+header {
+  background-color: #0d4070;
+  color: white;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
