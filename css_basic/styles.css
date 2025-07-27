@@ -27,11 +27,15 @@ main {
   flex: auto;
 }
 
-/* Article takes 2/3 of the space */
+/* Article takes 2/3 of the space and is styled */
 article {
   flex: 2;
   overflow-y: auto;
-  padding: 1rem;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* Aside takes 1/3 of the space */
@@ -47,14 +51,7 @@ footer {
   padding: 1rem;
 }
 
-article {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  font-family: Arial, sans-serif;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
+/* Logo styling */
 .logo {
   font-size: 2rem;
   margin-right: 15px;
